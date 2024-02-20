@@ -16,7 +16,7 @@ export default function Home() {
           <PartyPopper className='h-4 w-4' />
 
           <p className='text-sm font-semibold cursor-default'>
-            Documon is now live!
+            inkwell is now live!
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export default function Home() {
         </h1>
 
         <p className='max-w-prose text-zinc-700 sm:text-lg mt-5'>
-          Documon allows you to have conversations with any PDF document. Simply
+          inkwell allows you to have conversations with any PDF document. Simply
           upload your file and start asking questions right away.
         </p>
 
@@ -150,7 +150,7 @@ export default function Home() {
               </span>
 
               <span className='text-zinc-700 mt-2'>
-                It&apos;s that simple. Try out Documon today - it really takes
+                It&apos;s that simple. Try out inkwell today - it really takes
                 less than a minute.
               </span>
             </div>

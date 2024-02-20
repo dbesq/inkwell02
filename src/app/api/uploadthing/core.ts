@@ -94,7 +94,7 @@ const onUploadComplete = async ({
     }
 
     // vectorize and index entire document
-    const pineconeIndex = pinecone.Index("documon");
+    const pineconeIndex = pinecone.Index("inkwell");
 
     const embeddings = new OpenAIEmbeddings({
       openAIApiKey: process.env.OPENAI_API_KEY,

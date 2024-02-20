@@ -13,8 +13,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Documon - AI-powered SaaS",
-  description = "Documon is an open-source software to make chatting with your PDF files easy.",
+  title = "inkwell - AI-powered SaaS",
+  description = "inkwell is an open-source software to make chatting with your PDF files easy.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false, // allow search engine bots to crawl and index the website
@@ -45,7 +45,7 @@ export function constructMetadata({
       creator: "@nabarvn",
     },
     icons,
-    metadataBase: new URL("https://documon.nabarun.ai"),
+    metadataBase: new URL("https://inkwell.nabarun.ai"),
     ...(noIndex && {
       robots: {
         index: false,

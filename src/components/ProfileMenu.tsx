@@ -85,7 +85,7 @@ const ProfileMenu = async ({ name, email, imageUrl }: ProfileMenuProps) => {
         </DropdownMenuItem>
 
         <DropdownMenuItem asChild>
-          <Link target='_blank' href='https://github.com/nabarvn/documon'>
+          <Link target='_blank' href='https://github.com/nabarvn/inkwell'>
             <Github className='h-4 w-4 mr-2' />
             Star on GitHub
           </Link>

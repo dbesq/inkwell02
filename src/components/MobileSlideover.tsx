@@ -128,7 +128,7 @@ const MobileSlideover = ({ isAuth }: { isAuth: boolean }) => {
                   <li>
                     <Link
                       target='_blank'
-                      href='https://github.com/nabarvn/documon'
+                      href='https://github.com/nabarvn/inkwell'
                       onClick={() => setIsOpen(false)}
                       className='flex items-center w-full font-semibold'
                     >
